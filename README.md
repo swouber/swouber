@@ -55,3 +55,59 @@ Make sure to install the module  with
 ```
 pip install pygame
 ```
+
+# Installation
+
+IT IS NOT RECOMMENDED TO INSTALL VIA THE BINARIES AS IT DOESNT SUPPORT MODULES
+
+this is the correct way 
+
+you need to clone the repo
+
+```
+git clone https://github.com/swouber/swouber.git
+```
+when clone is complete
+
+install python
+
+```
+sudo apt update
+sudo apt install python3
+sudo apt install pip3
+```
+
+or on windows
+
+```
+start https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe
+```
+
+When python installation is complete run this wrapper
+
+move the working directory to to the bin directory so its accesible
+
+`swouberc.bat` - For Windows Only
+
+`swouberc.sh` - For Linux/Unix Systems
+
+if your on a windows system just simply type
+
+```
+swouberc
+```
+
+if your on linux unix 
+
+you need to use chmod to install it
+
+```
+sudo chmod +x /usr/local/bin/swouberc.sh/
+
+sudo swouberc
+swouberc
+```
+
+Now Swouberc is installerd
+
+
