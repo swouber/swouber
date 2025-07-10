@@ -62,7 +62,7 @@ IT IS NOT RECOMMENDED TO INSTALL VIA THE BINARIES AS IT DOESNT SUPPORT MODULES
 
 this is the correct way 
 
-you need to clone the repo
+you need to clone the repo (Requires Git For Windows if your on windows)
 
 ```
 git clone https://github.com/swouber/swouber.git
