@@ -108,6 +108,6 @@ sudo swouberc
 swouberc
 ```
 
-Now Swouberc is installerd
+Now Swouber is installed
 
 
