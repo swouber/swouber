@@ -1,18 +1,19 @@
 #!/bin/bash
 
-# Run Swouber script
+# Get the directory where this script is located
+SCRIPT_DIR="$(dirname "$(realpath "$0")")"
 
-# Optional: Set Python executable if needed
+# Path to swouber.py in the same directory
+SCRIPT="$SCRIPT_DIR/swouber.py"
+
+# Python executable
 PYTHON=python3
 
-# Path to your swouber.py script
-SCRIPT="swouber.py"
-
-# Check if the script exists
+# Check if swouber.py exists
 if [[ ! -f "$SCRIPT" ]]; then
     echo "Error: $SCRIPT not found!"
     exit 1
 fi
 
-# Run the script
-$PYTHON "$SCRIPT"
+# Run swouber.py with any passed arguments
+$PYTHON "$SCRIPT" "$@"
