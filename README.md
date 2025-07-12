@@ -91,7 +91,9 @@ move the working directory to to the bin directory so its accesible
 
 `swouberc.sh` - For Linux/Unix Systems
 
-if your on a windows system just simply type
+if your on a windows system add it to path for full installation
+
+you need to move it to a directory like c:\swouber or c:\swouberc
 
 ```
 swouberc
@@ -102,10 +104,11 @@ if your on linux unix
 you need to use chmod to install it
 
 ```
-sudo chmod +x /usr/local/bin/swouberc.sh/
+sudo cp -r ./* /usr/local/bin/
+sudo chmod +x /usr/local/bin/swouberc.sh
 
-sudo swouberc
-swouberc
+sudo swouberc.sh
+swouberc.sh
 ```
 
 Now Swouber is installed
