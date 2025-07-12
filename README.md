@@ -1,5 +1,5 @@
 # SWOUBER
-Swouber is a free open source programming language based on python it acts like assembly and pythom combined it also supports pip and other python package managers
+Swouber is a free open source programming language based on python it acts like assembly and python combined it also supports pip and other python package managers
 
 ---
 
