@@ -110,4 +110,8 @@ swouberc
 
 Now Swouber is installed
 
+# IMPORTANT NOTICE
 
+We have changed the swoubers official extension to .swou instead of .sbr
+
+because .sbr is for visual studio not swouber and .swou is an available extension
